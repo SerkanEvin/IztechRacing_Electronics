@@ -8,7 +8,6 @@
 #include <Arduino.h>
 #include <ArduinoJson.h>
 
-#include "data_functions.h"
 #include "can_functions.h"
 
 extern unsigned long kart_controls_interval;

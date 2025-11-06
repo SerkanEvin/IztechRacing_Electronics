@@ -5,7 +5,6 @@
 // enum for an array
 // array to send datas to raspberry
 // declaration of j1939 id's
-
 #include <stdint.h>
 
 extern uint32_t make_j1939_id(uint8_t priority, uint16_t pgn, uint8_t sa);

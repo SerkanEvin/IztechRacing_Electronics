@@ -1,5 +1,8 @@
 #include <raspberry_functions.h>
 #include <time_control.h>
+// this one communicates with raspberry pi
+// collects all the datas to send them to rasp
+// gets data from the brake
 
 const int brake_pin = PA7;
 
