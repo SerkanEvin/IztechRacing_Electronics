@@ -1,4 +1,5 @@
 #include <gps_management.h>
+//bunun watch olayina bakilacak
 
 NMEAGPS gps;
 gps_fix fix;
