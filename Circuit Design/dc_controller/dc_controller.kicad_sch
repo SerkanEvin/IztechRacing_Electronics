@@ -5206,94 +5206,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 52.07 127 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1a55ff85-2fe4-458b-91c8-8a31dac31775")
-		(property "Reference" "R1"
-			(at 54.61 125.7299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22"
-			(at 54.61 128.2699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.848 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 52.07 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 52.07 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 52.07 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fddb18dc-1ced-4479-97be-7aedac8d876c")
-		)
-		(pin "1"
-			(uuid "ab3d1a74-5f3a-4b5a-96de-d795b08582fe")
-		)
-		(instances
-			(project ""
-				(path "/7b7b4ebd-8a11-48bd-981a-233a70437b16"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 241.3 34.29 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6984,94 +6896,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 110.49 127 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7858a69f-7f65-4e05-84cd-0c0912461c76")
-		(property "Reference" "R6"
-			(at 113.03 125.7299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22"
-			(at 113.03 128.2699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 112.268 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 110.49 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 110.49 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 110.49 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 110.49 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a49cef9f-1017-4ae1-8fc4-7a19c5ff7abf")
-		)
-		(pin "1"
-			(uuid "8dba0c38-94f2-45a0-8408-f53f1d2ff0a7")
-		)
-		(instances
-			(project "dc_controller"
-				(path "/7b7b4ebd-8a11-48bd-981a-233a70437b16"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 87.63 137.16 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7372,6 +7196,94 @@
 			(project "dc_controller"
 				(path "/7b7b4ebd-8a11-48bd-981a-233a70437b16"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 52.07 127 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "866beec6-99c1-421c-9073-c09a365865b1")
+		(property "Reference" "R1"
+			(at 54.61 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7"
+			(at 54.61 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.848 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 52.07 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 52.07 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 52.07 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dc3f01b5-7a3f-4cde-a1cd-6e53ea895da0")
+		)
+		(pin "1"
+			(uuid "3af3a012-e481-4199-8910-8b76ea09ccbd")
+		)
+		(instances
+			(project "dc_controller"
+				(path "/7b7b4ebd-8a11-48bd-981a-233a70437b16"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -8580,16 +8492,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 59.69 127 180)
+		(at 110.49 127 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cc5291a3-4dfb-40c0-89c6-e4269ba5e7e5")
-		(property "Reference" "R2"
-			(at 62.23 125.7299 0)
+		(uuid "ce66f609-2022-4ce8-9c18-e14d3c064d68")
+		(property "Reference" "R6"
+			(at 113.03 125.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8597,8 +8509,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "22"
-			(at 62.23 128.2699 0)
+		(property "Value" "4.7"
+			(at 113.03 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8607,7 +8519,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 61.468 127 90)
+			(at 112.268 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8616,7 +8528,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 127 0)
+			(at 110.49 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8625,7 +8537,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 59.69 127 0)
+			(at 110.49 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8634,7 +8546,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 59.69 127 0)
+			(at 110.49 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8643,7 +8555,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 59.69 127 0)
+			(at 110.49 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8652,15 +8564,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "9258ab3b-73e3-43fc-b291-6d352704f80b")
+			(uuid "2e5df8ae-4190-4c1a-b55a-5ebabb099186")
 		)
 		(pin "1"
-			(uuid "fbcdf8c0-3e4d-4cf0-a54f-7f90e551fb92")
+			(uuid "d8136585-9e70-4dd4-8d79-000d0461717e")
 		)
 		(instances
 			(project "dc_controller"
 				(path "/7b7b4ebd-8a11-48bd-981a-233a70437b16"
-					(reference "R2")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -8828,16 +8740,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 102.87 127 180)
+		(at 59.69 127 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e4ed7fb6-3b67-4745-8eef-b246b5694f58")
-		(property "Reference" "R5"
-			(at 105.41 125.7299 0)
+		(uuid "eef23555-a42e-47cc-a2fd-02b52dd4b4f2")
+		(property "Reference" "R2"
+			(at 62.23 125.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8845,8 +8757,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "22"
-			(at 105.41 128.2699 0)
+		(property "Value" "4.7"
+			(at 62.23 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8855,7 +8767,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.648 127 90)
+			(at 61.468 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8864,7 +8776,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 127 0)
+			(at 59.69 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8873,7 +8785,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 102.87 127 0)
+			(at 59.69 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8882,7 +8794,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 102.87 127 0)
+			(at 59.69 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8891,7 +8803,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 102.87 127 0)
+			(at 59.69 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8900,15 +8812,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "027bb243-8369-411b-a8a7-9d0b1a13f9e6")
+			(uuid "db0c1579-7b16-4142-b18a-dcb576034be9")
 		)
 		(pin "1"
-			(uuid "8f71a677-22be-4351-99d5-fcaf87ab6761")
+			(uuid "87376546-04a1-4cc4-bcda-603b1835ae85")
 		)
 		(instances
 			(project "dc_controller"
 				(path "/7b7b4ebd-8a11-48bd-981a-233a70437b16"
-					(reference "R5")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -9072,6 +8984,94 @@
 			(project "dc_controller"
 				(path "/7b7b4ebd-8a11-48bd-981a-233a70437b16"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 102.87 127 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f81ac3ec-c9e8-447f-a43e-90eadbebcca8")
+		(property "Reference" "R5"
+			(at 105.41 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7"
+			(at 105.41 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.648 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 102.87 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 102.87 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 102.87 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e22db52f-0d67-46c8-a7c5-81a677a397cb")
+		)
+		(pin "1"
+			(uuid "b4dc3de6-4ad4-454f-aa3f-1db66f2f7a3d")
+		)
+		(instances
+			(project "dc_controller"
+				(path "/7b7b4ebd-8a11-48bd-981a-233a70437b16"
+					(reference "R5")
 					(unit 1)
 				)
 			)
